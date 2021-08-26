@@ -1,0 +1,277 @@
+<!--
+     Proyek ini dikerjakan oleh:
+    * Ardilan Hilmi Pramulintang 
+    * Azalia Amanda Putri Sampurno
+    * Mafatihul Hidayah
+    * Muhammad Asifurrohman 
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok B03 || Progate HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/3fe0436e91.js"></script>
+</head>
+<body>
+    <!-- Bagian Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+                    <i class="fas fa-bars" style="color: black;"></i>
+                </label>
+                <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+                <input type="checkbox" id="chkToggle"></input>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="#dashboard" class="nav-links">Home</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav-links">Services</a>
+                    </li>
+                    <li>
+                        <a href="#download" class="nav-links">Download apps</a>
+                    </li>
+                    <li>
+                        <a href="#testimonials" class="nav-links">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#article" class="nav-links">Article</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    
+    <!-- Virtual Healthcare for you -->
+    <div class="section dashboard-wrapper" id="dashboard">
+        <div class="container">
+            <div class="boards">
+                <div class="board d-flex board-kiri">
+                    <h1>Virtual Healthcare <br> for you</h1>
+                    <p class="paragraph">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                    
+                    <button class="btn btn-blue">Consult today</button>
+                    
+                </div>
+                <div class="board board-kanan">
+                    <img src="img/header-illustration.png" class="dashboard-illustration">
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Services -->
+    <main class="section services" id="services">
+        <div class="container">
+            <h2 class="h2-regular">Our services</h2>
+            <p class="paragraph services-paragraph">
+                We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health
+            </p>
+            <div class="services__wrapper">
+                <div class="services__card">
+                    <img src="img/icon-search-doctor.png" class="card__icon" alt="">
+                    <p class="card__title">Search doctor</p>
+                    <p class="card__description">
+                        Choose your doctor from thousands of specialist, general, and trusted hospitals
+                    </p>
+                </div>
+                <div class="services__card">
+                    <img src="img/icon-online-pharmacy.png" class="card__icon" alt="">
+                    <p class="card__title">Online pharmacy</p>
+                    <p class="card__description">
+                        Buy  your medicines with our mobile application with a simple delivery systems
+                    </p>
+                </div>
+                <div class="services__card">
+                    <img src="img/icon-consultation.png" class="card__icon" alt="">
+                    <p class="card__title">Consultation</p>
+                    <p class="card__description">
+                        Free consultation with our trusted doctors and get the best recomendations
+                    </p>
+                </div>
+                <div class="services__card">
+                    <img src="img/icon-details-info.png" class="card__icon" alt="">
+                    <p class="card__title">Details info</p>
+                    <p class="card__description">
+                        Free consultation with our trusted doctors and get the best recomendations
+                    </p>
+                </div>
+                <div class="services__card">
+                    <img src="img/icon-emergency-care.png" class="card__icon" alt="">
+                    <p class="card__title">Emergency care</p>
+                    <p class="card__description">
+                        You can get 24/7 urgent care for yourself or your children and your lovely family
+                    </p>
+                </div>
+                <div class="services__card">
+                    <img src="img/icon-tracking.png" class="card__icon" alt="">
+                    <p class="card__title">Tracking</p>
+                    <p class="card__description">
+                        Track and save your medical history and health data 
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    
+    <!-- Download -->
+    <section class="section download" id="download">
+        <div class="container d-flex download__wrapper">
+            <img src="img/leading-healthcare-illustration.png" alt="" class="download__illustration">
+            <div class="right-side">
+                <h2 class="h2-download">Leading healthcare <br> providers</h2>
+                <p class="paragraph">
+                    Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
+                    in the solutions we deliver.
+                </p>
+                <button class="btn btn-white">Learn more</button>
+            </div>
+        </div>
+        <div class="container d-flex download__wrapper download__wrapper--bawah">
+            <div class="left-side">
+                <h2 class="h2-download">Download our <br> mobile apps</h2>
+                <p class="paragraph">
+                    Our dedicated patient engagement app and 
+                    web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                    or administrative hassle) and securely
+                </p>
+                <button class="btn btn-white">Download</button>
+            </div>
+            <img src="img/download-illustration.png" alt="" class="download__illustration">
+        </div>
+    </section>
+    
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="h2-regular">What our customer are saying</h2>
+            <div class="testimonials__wrapper d-flex">
+                <div class="card">
+                    <div class="circular-image">
+                        <img src="img/customer-photo.png" class="card__photo" alt="">
+                    </div>
+                    <p class="card__name">Edward Newgate</p>
+                    <p class="card__testimony">
+                        &nbsp;“Our dedicated patient engagement app and 
+                        web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                        or administrative hassle) and securely”
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="circular-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Johan_de_Witt_%281625-1675%29%2C_Grand_Pensionary_of_Holland%2C_by_Studio_of_Adriaen_Hanneman.jpg" class="card__photo" alt="">
+                    </div>
+                    <p class="card__name">Johan De Witt</p>
+                    <p class="card__testimony">
+                        &nbsp;“Our dedicated patient engagement app and 
+                        web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                        or administrative hassle) and securely”
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="circular-image">
+                        <img src="http://photos.geni.com/p13/3c/81/c4/b5/5344484957e74518/x2523905283_original.jpg" class="card__photo" alt="">
+                    </div>
+                    <p class="card__name">Gunther Lutjens</p>
+                    <p class="card__testimony">
+                        &nbsp;“Our dedicated patient engagement app and 
+                        web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                        or administrative hassle) and securely”
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="section articles" id="article">
+        <div class="container">
+            <div class="head-article">
+                <h2 class="h2-regular">Check out our latest article</h2>
+            </div>
+            <div class="main-article">
+                <div class="artikel">
+                    <div class="article-img article-img-1"></div>
+                    <div class="ket">
+                        <h3>Disease detection, check up in the laboratory</h3>
+                        <p>In this case, the role of the health laboratory is very important to do a disease detection...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="artikel">
+                    <div class="article-img article-img-2"></div>
+                    <div class="ket">
+                        <h3>Herbal medicines that are safe for consumption</h3>
+                        <p>Herbal medicine is very widely used at this time because of its very good for your health...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="artikel">
+                    <div class="article-img article-img-3"></div>
+                    <div class="ket">
+                        <h3>Natural care for healthy facial skin</h3>
+                        <p>A healthy lifestyle should start from now and also for your skin health. There are some...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-btn">
+                <button class="btn btn-white" style="margin-top: 50px;">View all</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            
+            <!-- Paling kiri -->
+            <div class="trafalgar">
+                <img src="img/logo-white.png">
+                <p class="desc">Trafalgar provides progressive and afforable healthcare, accessible on mobile and online for everyone.</p>
+                <p class="copyright">&copy Trafalgar PTY 2020, All rights reserved</p>
+            </div>
+            
+            <!-- Kolom company -->
+            <div class="footer-links">
+                <h3>Company</h3>
+                <ul class="links">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Find a doctor</a></li>
+                    <li><a href="#">App</a></li>
+                </ul>
+            </div>
+            
+            <!-- kolom region -->
+            <div class="footer-links">
+                <h3>Region</h3>
+                <ul class="links">
+                    <li><a href="#">Indonesia</a></li>
+                    <li><a href="#">Singapore</a></li>
+                    <li><a href="#">Hongkong</a></li>
+                    <li><a href="#">Canada</a></li>
+                </ul>
+            </div>
+            
+            <!-- kolom help -->
+            <div class="footer-links">
+                <h3>Help</h3>
+                <ul class="links">
+                    <li><a href="#">Help center</a></li>
+                    <li><a href="#">Contact support</a></li>
+                    <li><a href="#">Instructions</a></li>
+                    <li><a href="#">How it works</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
